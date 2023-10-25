@@ -5,3 +5,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .key:hover {
+    background-color: #e6e6e6;
+  }
+  .backspace {
+    width: 80px;
+  }
+  .tab {
+    width: 60px;
+  }
+  .caps {
+    width: 80px;
+  }
+  .enter {
+    width: 80px;
+  }
+  .shift {
+    width: 100px;
+  }
+  .ctrl {
+    width: 60px;
+  }
+  .win {
+    width: 60px;
+  }
+  .alt {
+    width: 60px;
+  }
+  .space {
+    width: 200px;
+  }
